@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfferGen.API", "OfferGen.API\OfferGen.API.csproj", "{6DB39E3D-028F-42BF-9AF9-229B4F9C9EA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DB39E3D-028F-42BF-9AF9-229B4F9C9EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB39E3D-028F-42BF-9AF9-229B4F9C9EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB39E3D-028F-42BF-9AF9-229B4F9C9EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB39E3D-028F-42BF-9AF9-229B4F9C9EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33AD1757-368F-4A1E-A5BC-6D53AF8A347C}
+	EndGlobalSection
+EndGlobal
