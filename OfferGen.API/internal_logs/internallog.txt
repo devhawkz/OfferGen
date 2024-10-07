@@ -1,0 +1,115 @@
+2024-10-07 15:08:04.9387 Debug Message Template Auto Format enabled
+2024-10-07 15:08:04.9852 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-10-07 15:08:04.9903 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-10-07 15:08:04.9903 Debug FileTarget FilePathLayout with FilePathKind.Relative using AppDomain.BaseDirectory: D:\DEVHAWKZ\Izrada softvera\OfferGEN aplikacija\OfferGen\OfferGen.API\bin\Debug\net8.0\
+2024-10-07 15:08:04.9903 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-10-07 15:08:04.9903 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-10-07 15:08:05.0074 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-10-07 15:08:05.0074 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-10-07 15:08:05.0074 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-10-07 15:08:05.0074 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-10-07 15:08:05.0221 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2024-10-07 15:08:05.0221 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-10-07 15:08:05.0221 Trace ParseRulesElement
+2024-10-07 15:08:05.0368 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-07 15:08:05.0368 Debug Start watching file-filter 'nlog.config' in directory: D:\DEVHAWKZ\Izrada softvera\OfferGEN aplikacija\OfferGen\OfferGen.API
+2024-10-07 15:08:05.0368 Debug --- NLog configuration dump ---
+2024-10-07 15:08:05.0519 Debug Targets:
+2024-10-07 15:08:05.0519 Debug FileTarget(Name=logfile)
+2024-10-07 15:08:05.0519 Debug Rules:
+2024-10-07 15:08:05.0687 Debug logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2024-10-07 15:08:05.0687 Debug --- End of NLog configuration dump ---
+2024-10-07 15:08:05.0687 Trace FindReachableObject<System.Object>:
+2024-10-07 15:08:05.0847 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Trace Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2024-10-07 15:08:05.0847 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-10-07 15:08:05.0847 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2024-10-07 15:08:05.1006 Trace   Scanning Property FileName '.\logs\${shortdate}_logfile.txt' NLog.Layouts.Layout
+2024-10-07 15:08:05.1006 Trace   Scanning SimpleLayout '.\logs\${shortdate}_logfile.txt'
+2024-10-07 15:08:05.1006 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-10-07 15:08:05.1006 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-10-07 15:08:05.1185 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-10-07 15:08:05.1185 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-10-07 15:08:05.1185 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2024-10-07 15:08:05.1325 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2024-10-07 15:08:05.1325 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-10-07 15:08:05.1325 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-10-07 15:08:05.1325 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-10-07 15:08:05.1494 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-10-07 15:08:05.1494 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-10-07 15:08:05.1494 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-10-07 15:08:05.1614 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-10-07 15:08:05.1614 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-10-07 15:08:05.1614 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\DEVHAWKZ\Izrada softvera\OfferGEN aplikacija\OfferGen\OfferGen.API\nlog.config
+2024-10-07 15:08:05.1614 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2024-10-07 15:08:05.1842 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2024-10-07 15:08:05.1842 Trace Initializing Layout Renderer: ${message}
+2024-10-07 15:08:05.1937 Trace Initializing Layout Renderer: ${literal}
+2024-10-07 15:08:05.1937 Trace Initializing Layout Renderer: ${level}
+2024-10-07 15:08:05.1937 Trace Initializing Layout Renderer: ${literal}
+2024-10-07 15:08:05.1937 Trace Initializing Layout Renderer: ${longdate}
+2024-10-07 15:08:05.2112 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2024-10-07 15:08:05.2112 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-10-07 15:08:05.2112 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2024-10-07 15:08:05.2276 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-10-07 15:08:05.2276 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-10-07 15:08:05.2276 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-10-07 15:08:05.2405 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-10-07 15:08:05.2405 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-10-07 15:08:05.2405 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-10-07 15:08:05.2559 Trace Initializing Layout Renderer: ${literal}
+2024-10-07 15:08:05.2559 Trace Initializing Layout Renderer: ${shortdate}
+2024-10-07 15:08:05.2559 Trace Initializing Layout Renderer: ${literal}
+2024-10-07 15:08:05.2559 Trace Initializing .\logs\${shortdate}_logfile.txt
+2024-10-07 15:08:05.2729 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-10-07 15:08:05.2729 Trace Scanning SimpleLayout '.\logs\${shortdate}_logfile.txt'
+2024-10-07 15:08:05.2729 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-10-07 15:08:05.2729 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-10-07 15:08:05.2898 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-10-07 15:08:05.2898 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-10-07 15:08:05.2898 Trace Initializing FileTarget(Name=logfile)
+2024-10-07 15:08:05.3038 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-10-07 15:08:05.3038 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2024-10-07 15:08:05.3038 Trace  Scanning Property FileName '.\logs\${shortdate}_logfile.txt' NLog.Layouts.Layout
+2024-10-07 15:08:05.3038 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2024-10-07 15:08:05.3206 Trace FileTarget(Name=logfile) has 2 layouts
+2024-10-07 15:08:05.3206 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-10-07 15:08:05.3206 Info Configuration initialized.
+2024-10-07 15:08:06.4202 Debug Targets configured when LogLevel >= Trace for Logger: OfferGen.LoggerService.LoggerManager
+2024-10-07 15:08:06.4283 Debug Logger OfferGen.LoggerService.LoggerManager [Trace] => logfile
+2024-10-07 15:08:06.4283 Debug Logger OfferGen.LoggerService.LoggerManager [Debug] => logfile
+2024-10-07 15:08:06.4367 Debug Logger OfferGen.LoggerService.LoggerManager [Info] => logfile
+2024-10-07 15:08:06.4367 Debug Logger OfferGen.LoggerService.LoggerManager [Warn] => logfile
+2024-10-07 15:08:06.4367 Debug Logger OfferGen.LoggerService.LoggerManager [Error] => logfile
+2024-10-07 15:08:06.4367 Debug Logger OfferGen.LoggerService.LoggerManager [Fatal] => logfile
+2024-10-07 15:08:06.4546 Debug FileTarget(Name=logfile): Preparing for new file: 'D:\DEVHAWKZ\Izrada softvera\OfferGEN aplikacija\OfferGen\OfferGen.API\bin\Debug\net8.0\.\logs\2024-10-07_logfile.txt'
+2024-10-07 15:08:06.4546 Debug FileTarget(Name=logfile): Creating file appender: 'D:\DEVHAWKZ\Izrada softvera\OfferGEN aplikacija\OfferGen\OfferGen.API\bin\Debug\net8.0\.\logs\2024-10-07_logfile.txt'
+2024-10-07 15:08:06.4546 Trace FileTarget(Name=logfile): Opening D:\DEVHAWKZ\Izrada softvera\OfferGEN aplikacija\OfferGen\OfferGen.API\bin\Debug\net8.0\.\logs\2024-10-07_logfile.txt with allowFileSharedWriting=False
+2024-10-07 15:08:06.4774 Debug FileTarget(Name=logfile): DirectoryNotFoundException - Attempting to create directory for FileName: D:\DEVHAWKZ\Izrada softvera\OfferGEN aplikacija\OfferGen\OfferGen.API\bin\Debug\net8.0\.\logs\2024-10-07_logfile.txt
+2024-10-07 15:09:36.4360 Info AppDomain Shutting down. LogFactory closing...
+2024-10-07 15:09:36.4360 Debug Stop watching file-filter 'nlog.config' in directory: D:\DEVHAWKZ\Izrada softvera\OfferGEN aplikacija\OfferGen\OfferGen.API
+2024-10-07 15:09:36.4360 Trace Flushing all 1 targets...
+2024-10-07 15:09:36.4556 Trace ForEachItemInParallel() 1 items
+2024-10-07 15:09:36.4556 Trace FileTarget(Name=logfile): FlushAsync
+2024-10-07 15:09:36.4556 Trace Continuation invoked: 
+2024-10-07 15:09:36.4556 Trace Parallel task completed. 0 items remaining
+2024-10-07 15:09:36.4745 Debug Flush completed
+2024-10-07 15:09:36.4745 Trace FileTarget(Name=logfile): FlushAsync Done
+2024-10-07 15:09:36.4745 Debug Closing logging configuration...
+2024-10-07 15:09:36.4878 Trace Closing FileTarget(Name=logfile)
+2024-10-07 15:09:36.4878 Debug FileTarget(Name=logfile): Closing...
+2024-10-07 15:09:36.4878 Trace FileTarget(Name=logfile): FinalizeFile 'D:\DEVHAWKZ\Izrada softvera\OfferGEN aplikacija\OfferGen\OfferGen.API\bin\Debug\net8.0\.\logs\2024-10-07_logfile.txt, isArchiving: False'
+2024-10-07 15:09:36.4878 Debug FileTarget(Name=logfile): FileAppender Invalidate Closing File: 'D:\DEVHAWKZ\Izrada softvera\OfferGEN aplikacija\OfferGen\OfferGen.API\bin\Debug\net8.0\.\logs\2024-10-07_logfile.txt'
+2024-10-07 15:09:36.5069 Trace FileTarget: Closing 'D:\DEVHAWKZ\Izrada softvera\OfferGEN aplikacija\OfferGen\OfferGen.API\bin\Debug\net8.0\.\logs\2024-10-07_logfile.txt'
+2024-10-07 15:09:36.5069 Debug FileTarget(Name=logfile): Closed.
+2024-10-07 15:09:36.5169 Trace Closing .\logs\${shortdate}_logfile.txt
+2024-10-07 15:09:36.5169 Trace Closing Layout Renderer: ${literal}
+2024-10-07 15:09:36.5169 Trace Closing Layout Renderer: ${shortdate}
+2024-10-07 15:09:36.5169 Trace Closing Layout Renderer: ${literal}
+2024-10-07 15:09:36.5169 Trace Closing ${longdate} ${level:uppercase=true} ${message}
+2024-10-07 15:09:36.5383 Trace Closing Layout Renderer: ${longdate}
+2024-10-07 15:09:36.5383 Trace Closing Layout Renderer: ${literal}
+2024-10-07 15:09:36.5465 Trace Closing Layout Renderer: ${level}
+2024-10-07 15:09:36.5465 Trace Closing Layout Renderer: ${literal}
+2024-10-07 15:09:36.5465 Trace Closing Layout Renderer: ${message}
+2024-10-07 15:09:36.5465 Debug Finished closing logging configuration.
+2024-10-07 15:09:36.5465 Info LogFactory has been closed.
