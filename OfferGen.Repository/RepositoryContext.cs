@@ -12,30 +12,15 @@ namespace OfferGen.Repository
         }
 
         public DbSet<Company> Companies { get; set; }
-        public DbSet<OfferHeader> OfferHeaders { get; set; }
+        public DbSet<BankAccounts> OfferHeaders { get; set; }
         public DbSet<BankAccounts> BankAccounts { get; set; }
+
+        public DbSet<Clients> Clients { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<Company>()
-                .Property(c => c.Id)
-                .HasDefaultValueSql("NEWSEQUENTIALID()");
-            
-            // OwnsOne koristi se da bi se oznacilo da je Address deo entiteta Company, a ne zaseban entitet u bazi. EF core ce tretirati ovaj slozeni tip kao deo tabele Company
-            modelBuilder.Entity<Company>()
-                .OwnsOne(c => c.Address); 
-
-            modelBuilder.Entity<Company>()
-                .OwnsOne(c => c.Email);
-
-            modelBuilder.Entity<BankAccounts>()
-                .Property(ba => ba.Id)
-                .HasDefaultValueSql("NEWSEQUENTIALID()");
-
-            modelBuilder.Entity<BankAccounts>()
-                .OwnsOne(ba => ba.AccountDetails);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(RepositoryContext).Assembly);
         }
     }
 }

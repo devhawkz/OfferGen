@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Runtime.CompilerServices;
 
 namespace OfferGen.Entities.Models.CompanyRelations;
 
@@ -28,7 +27,7 @@ public class BankAccounts
 
     public BankAccounts()
     {
-        
+
     }
 
     public BankAccounts(BankAccountDetails accountDetails, Guid companyId)
