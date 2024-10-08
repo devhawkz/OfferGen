@@ -43,6 +43,13 @@ public class Company
 
     // relation 1:N with BankAccounts
     public HashSet<BankAccounts> Accounts { get; set; } = new HashSet<BankAccounts>();
+    
+    // relation 1:1 with OfferHeader
+    public OfferHeader OfferHeader { get; set; }
+    public Company()
+    {
+        
+    }
 
     public Company(Email email, Address address)
     {

@@ -21,11 +21,15 @@ public class BankAccounts
     public Guid Id { get; set; }
     public BankAccountDetails AccountDetails { get; }
 
-    // foreign key
+    // relation N:1 with Company
     [ForeignKey(nameof(CompanyId))]
     public Guid CompanyId { get; set; }
     public Company Company { get; set; }
 
+    public BankAccounts()
+    {
+        
+    }
 
     public BankAccounts(BankAccountDetails accountDetails, Guid companyId)
     {

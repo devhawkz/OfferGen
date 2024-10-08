@@ -11,6 +11,7 @@ public class OfferHeader
 
     public string? CompanyLogo { get; set; }
 
+    // relation 1:1 with Company
     [ForeignKey(nameof(CompanyId))]
     public Guid CompanyId { get; set; }
     public Company Company { get; set; }
